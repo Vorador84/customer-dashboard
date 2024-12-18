@@ -1,0 +1,11 @@
+frontend:
+    path: ./
+    publish: ./
+    scripts:
+        build: npm install
+        deploy:
+            - npm install
+    subdomain: customer-dashboard
+name: customer-dashboard
+region: eu-central-1
+yamlVersion: 2
